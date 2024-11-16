@@ -9,8 +9,12 @@
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
+                <ResourceDictionary>
+                    <FontFamily x:Key="HarmonyOSSans">ms-appx:///Assets/Fonts/HarmonyOS_Sans_SC_Medium.ttf#HarmonyOS Sans SC</FontFamily>
+                </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

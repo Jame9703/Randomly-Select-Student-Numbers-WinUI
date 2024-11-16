@@ -4,9 +4,6 @@
     <ApplicationDefinition Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainWindow.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <Midl Include="MainWindow.idl" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +40,15 @@
     <Filter Include="Assets">
       <UniqueIdentifier>{f316f5e4-bc4d-4859-b980-1defc01c1764}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Assets\Classes">
+      <UniqueIdentifier>{39973841-cb80-497e-a8fc-49f40d3b2769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Pages">
+      <UniqueIdentifier>{c1728f6b-9502-4716-82a7-21426dd8e6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{7109ec66-67d7-4561-b0b7-493cb5322fc2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
@@ -55,5 +61,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="RSSN_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml">
+      <Filter>Assets\Pages</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Fonts\HarmonyOS_Sans_SC_Medium.ttf">
+      <Filter>Assets\Fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
