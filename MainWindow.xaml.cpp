@@ -32,4 +32,8 @@ namespace winrt::RSSN::implementation
     {
 
     }
+    void ClassNameHyperlinkButton_Click(IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args)
+    {
+
+    }
 }
