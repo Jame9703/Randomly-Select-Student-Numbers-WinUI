@@ -11,6 +11,7 @@
                 <!--  Other merged dictionaries here  -->
                 <ResourceDictionary>
                     <FontFamily x:Key="HarmonyOSSans">ms-appx:///Assets/Fonts/HarmonyOS_Sans_SC_Medium.ttf#HarmonyOS Sans SC</FontFamily>
+                    <FontFamily x:Key="SegoeFluentIcons">ms-appx:///Fonts/Segoe Fluent Icons.ttf#Segoe Fluent Icons</FontFamily>
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             <!--  Other app resources here  -->

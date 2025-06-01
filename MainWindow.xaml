@@ -6,10 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:RSSN"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="随机抽取学号"
     mc:Ignorable="d">
     <Grid x:Name="MainGrid">
         <Grid>
-            <Grid x:Name="AppTitleBar" Height="100" Margin="0,0,0,0" VerticalAlignment="Top">
+            <Grid
+                x:Name="AppTitleBar"
+                Height="48"
+                Margin="0,0,0,0"
+                VerticalAlignment="Top">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
@@ -48,13 +53,13 @@
                 Width="Auto"
                 Height="36"
                 Margin="175,2,0,2"
+                VerticalAlignment="Top"
                 x:FieldModifier="public"
                 BorderBrush="{ThemeResource SystemAccentColorDark2}"
                 BorderThickness="2"
                 Click="ClassNameHyperlinkButton_Click"
                 Content="我的班级"
                 FontFamily="{StaticResource HarmonyOSSans}"
-                VerticalAlignment="Top"
                 FontSize="16" />
         </Grid>
         <Frame

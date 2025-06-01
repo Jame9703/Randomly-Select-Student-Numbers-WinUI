@@ -19,6 +19,7 @@
     <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
     <AppContainerApplication>false</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
+    <WindowsPackageType>None</WindowsPackageType>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
@@ -175,6 +176,7 @@
     <None Include="RSSN_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="..\Randomly-Select-Student-Numbers-UWP-main\Fonts\Segoe Fluent Icons.ttf" />
     <Font Include="Assets\Fonts\HarmonyOS_Sans_SC_Medium.ttf" />
   </ItemGroup>
   <!--
