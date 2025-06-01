@@ -35,6 +35,7 @@
     <Image Include="Assets\LockScreenLogo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
+    <Image Include="Assets\RSSN_Logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Assets">
@@ -47,7 +48,7 @@
       <UniqueIdentifier>{c1728f6b-9502-4716-82a7-21426dd8e6fe}</UniqueIdentifier>
     </Filter>
     <Filter Include="Assets\Fonts">
-      <UniqueIdentifier>{7109ec66-67d7-4561-b0b7-493cb5322fc2}</UniqueIdentifier>
+      <UniqueIdentifier>{44e767f2-5aa2-45dd-ae59-d1616788250c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="app.manifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,7 +70,10 @@
     <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="Assets\Fonts\HarmonyOS_Sans_SC_Medium.ttf">
+    <Font Include="Fonts\HarmonyOS_Sans_SC_Medium.ttf">
+      <Filter>Assets\Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\Segoe Fluent Icons.ttf">
       <Filter>Assets\Fonts</Filter>
     </Font>
   </ItemGroup>
